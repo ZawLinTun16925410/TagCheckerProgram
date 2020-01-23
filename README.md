@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HTML Tag Checker
+
+This program checks the syntax of HTML tags of a line or paragraph. It also ignore empty line and show the output line by line.
+If the input is just only one line, it will not show line by line.
+
+This program will run on ES2015 or higher specifications.
 
 ## Available Scripts
 
@@ -39,7 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was bootstrapped using Create React App. You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 

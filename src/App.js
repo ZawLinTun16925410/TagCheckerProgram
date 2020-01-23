@@ -104,7 +104,7 @@ class TagCheckerApp extends React.Component {
     let output = '';
 
     //split by question marks or full stop or new line.
-    const lines = text.split(/\?|\.|\r?\n/g);
+    const lines = text.trim().split(/\?|\.|\r?\n/g);
     //if there is only line. dont do for loop.
     if (lines.length === 1) {
       return this.checkHTML(lines[0]);
